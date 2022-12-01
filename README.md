@@ -1,4 +1,4 @@
-# Data Structure Final Exam - BFS + Adjacency
+# Data Structure Final Exam - BFS + Adjacency list
 ## Combinations of Linked List, Graphs and BFS algorithm.
 Group Members:<br>
 Angelic Pangkaraya (2021400005)<br>
