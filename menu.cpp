@@ -19,7 +19,11 @@ void menu(){
 			else if(chc == 3){
 			cout << "Choose starting node: " << endl;
 				int src;
-				cin >> src;}
+				cin >> src;
+			//call BFS function with src parameter as startign node
+				g.BFS(src);
+				cout << "Graph traversal success!" << endl;
+			}
 			else if(chc == 4){}
 			else if(chc == 5){}
 		}
