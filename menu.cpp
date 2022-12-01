@@ -16,7 +16,9 @@ void menu(){
 			cin >> chc;
 			if(chc == 1){}
 			else if(chc == 2){}
-			else if(chc == 3){}
+			else if(chc == 3){
+				cout << "Choose starting node: " << endl;
+				int src;}
 			else if(chc == 4){}
 			else if(chc == 5){}
 		}
