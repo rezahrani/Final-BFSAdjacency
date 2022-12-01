@@ -24,7 +24,11 @@ void menu(){
 				g.BFS(src);
 				cout << "Graph traversal success!" << endl;
 			}
-			else if(chc == 4){}
+			else if(chc == 4){
+			//stops inner loop
+				reset = true;
+				break;
+			}
 			else if(chc == 5){}
 		}
 			
