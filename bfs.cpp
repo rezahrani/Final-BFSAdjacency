@@ -1,20 +1,3 @@
-class Graph{
-	int numVertices;
-	vector< vector<int> > adjList;
-	
-	public:
-	//graph constructor
-	Graph(int numVertices);
-	//graph functions
-	void addEdge(int u, int v);
-	void BFS(int src);
-};
-
-//constructor
-Graph::Graph(int numVertices){
-	this->numVertices = numVertices;
-	adjList.resize(numVertices);
-}
 void Graph::BFS(int src){
 	//initialize all nodes as unvisited
 	vector<bool> visited(numVertices, false);
