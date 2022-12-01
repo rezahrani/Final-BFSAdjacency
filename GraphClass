@@ -1,0 +1,9 @@
+class Graph{
+	int numVertices;
+	vector< vector<int> > adjList;
+	
+	public:
+	Graph(int numVertices);
+	void addEdge(int u, int v);
+	void BFS(int src);
+};
